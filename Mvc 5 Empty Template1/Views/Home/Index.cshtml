@@ -1,12 +1,17 @@
-﻿@model  Mvc_5_Empty_Template1.tbl_Users
+﻿@model  Mvc_5_Empty_Template1.Models.order
 @{
 
-    ViewBag.Title = "Please Make an order";
+    ViewBag.Title = "Order Page";
 }
 
 
 @section featured
 {
+<script type="text/javascript">
+    $(function () { // will trigger when the document is ready
+       $('.datepicker').datepicker(); //Initialise any date pickers
+    });
+</script>
     <section class="featured">
         <form method="post">
             <div class="content-wrapper">
@@ -18,23 +23,32 @@
                         <td><p>First Name</p></td>
                         <td>
                             @*<textarea name="firstName"></textarea>*@
-                            <input id="tbxFirstName" type="text" name="firstName" />
+                            @Html.TextBoxFor(model => model.firstName)
                         </td>
                     </tr>
                     <tr>
                         <td><p>Last Name</p></td>
-                        <td><input id="tbxLastName" type="text" /></td>
+                        <td>@Html.TextBoxFor(model => model.lastName)</td>
                     </tr>
                     <tr>
                         <td><p>Send confirmation email to:</p></td>
-                        <td><input id="tbxEmail" type="text" /></td>
+                        <td>@Html.TextBoxFor(model => model.userEmail)</td>
                     </tr>
                     <tr>
                         <td><p>Phone Number:</p></td>
-                        <td><input id="tbxPhone" type="text" /></td>
+                        <td>@Html.TextBoxFor(model => model.phone)</td>
+                    </tr>
+                    <tr>
+                        <td><p>Delivery Date:</p></td>
+                        <td>@Html.TextBoxFor(model => model.deliveredDate, new { @class = "form-control datepicker", placeholder = "Enter Delivery date here..." })</td>
+                    </tr>
+                    <tr>
+                        <td><p>Count Of Pizzas:</p></td>
+                        <td>@Html.TextBoxFor(model => model.countPZ)</td>
                     </tr>
                     <tr>
                         <td colspan="2"><input id="Button1" type="submit" value="button" /></td>
+                        <td>            @Html.ActionLink("Add Order", "Add")</td>
                     </tr>
                 </table>
             </div>

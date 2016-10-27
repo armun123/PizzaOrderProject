@@ -12,10 +12,20 @@
             <hgroup class="title">
                 <h1>@ViewBag.Title.</h1>
             </hgroup>
-            <p>
-                It is featured section. That is named section in
-                Layout template that defined by RenderSection
-            </p>
+            <% foreach (var m in ViewData.Model)
+            { %>
+
+            Title: <%= m.userId %>
+            <br />
+            Director: <%= m.deliveredDate %>
+            <br />
+            Director: <%= m.countPZ %>
+            <br />
+            <hr />
+            <% } %>
+
+
+
         </div>
     </section>
 }
