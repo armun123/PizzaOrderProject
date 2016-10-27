@@ -1,0 +1,44 @@
+﻿@model  Mvc_5_Empty_Template1.tbl_Users
+@{
+
+    ViewBag.Title = "Please Make an order";
+}
+
+
+@section featured
+{
+    <section class="featured">
+        <form method="post">
+            <div class="content-wrapper">
+                <hgroup class="title">
+                    <h1>@ViewBag.Message.</h1>
+                </hgroup>
+                <table>
+                    <tr>
+                        <td><p>First Name</p></td>
+                        <td>
+                            @*<textarea name="firstName"></textarea>*@
+                            <input id="tbxFirstName" type="text" name="firstName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Last Name</p></td>
+                        <td><input id="tbxLastName" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><p>Send confirmation email to:</p></td>
+                        <td><input id="tbxEmail" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><p>Phone Number:</p></td>
+                        <td><input id="tbxPhone" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input id="Button1" type="submit" value="button" /></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </section>
+}
+

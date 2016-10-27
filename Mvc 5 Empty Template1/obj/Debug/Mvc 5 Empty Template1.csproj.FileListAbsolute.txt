@@ -1,0 +1,58 @@
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\csc.exe
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\csc.exe.config
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\csc.rsp
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\csi.exe
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\csi.rsp
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\System.AppContext.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\System.Collections.Immutable.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\System.IO.FileSystem.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\vbc.exe
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\vbc.exe.config
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\vbc.rsp
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\VBCSCompiler.exe
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\roslyn\VBCSCompiler.exe.config
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Mvc 5 Empty Template1.dll.config
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Mvc 5 Empty Template1.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Mvc 5 Empty Template1.pdb
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Antlr3.Runtime.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Microsoft.Web.Infrastructure.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Newtonsoft.Json.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Helpers.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Mvc.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Optimization.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Razor.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.Deployment.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.Razor.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\WebGrease.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Antlr3.Runtime.pdb
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\Newtonsoft.Json.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Helpers.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Mvc.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Optimization.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.Razor.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.Deployment.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.Razor.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.pdb
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.csprojResolveAssemblyReference.cache
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.SqlServer.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.SqlServer.xml

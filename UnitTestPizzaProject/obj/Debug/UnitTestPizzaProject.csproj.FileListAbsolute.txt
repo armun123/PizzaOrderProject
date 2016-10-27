@@ -1,0 +1,7 @@
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\bin\Debug\UnitTestPizzaProject.dll
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\bin\Debug\UnitTestPizzaProject.pdb
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\obj\Debug\UnitTestPizzaProject.dll
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\obj\Debug\UnitTestPizzaProject.pdb
+C:\Hanna\pizza\PizzaOrderProject\UnitTestPizzaProject\obj\Debug\UnitTestPizzaProject.csprojResolveAssemblyReference.cache
