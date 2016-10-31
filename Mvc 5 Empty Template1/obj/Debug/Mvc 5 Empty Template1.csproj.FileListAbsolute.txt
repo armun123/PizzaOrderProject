@@ -51,7 +51,6 @@ C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.D
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\System.Web.WebPages.Razor.xml
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.dll
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.pdb
-C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.csprojResolveAssemblyReference.cache
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.dll
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.xml
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.SqlServer.dll

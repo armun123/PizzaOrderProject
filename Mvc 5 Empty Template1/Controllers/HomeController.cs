@@ -10,23 +10,48 @@ namespace Mvc_5_Empty_Template1.Controllers
 {
     public class HomeController : Controller
     {
+        private PizzaDBEntities1 dbe = new PizzaDBEntities1();
         // GET: Home
-        PizzaDBEntities1 _db;
 
         public HomeController()
         {
-            _db = new PizzaDBEntities1();
         }
 
         public ActionResult Index()
         {
+
             ViewBag.Message = "Please Make An Order";
             return View();
         }
         [HttpPost]
         public ActionResult Index(FormCollection form)
         {
-            ViewData.Model = _db.tbl_orders.ToList();
+            try
+            {
+                string phone = form["phone"];
+                tbl_Users user = dbe.tbl_Users.Where(item => item.phone == phone).FirstOrDefault();
+                if (user == null)
+                {
+                    tbl_Users newUser = new tbl_Users();
+                    newUser.firstName = form["firstName"];
+                    newUser.lastName = form["lastName"];
+                    newUser.phone = form["phone"];
+                    newUser.userEmail = form["userEmail"];
+                    dbe.tbl_Users.Add(newUser);
+                    dbe.SaveChanges();
+                    user = dbe.tbl_Users.Where(item => item.phone == phone).FirstOrDefault();
+                }
+                tbl_orders newOrder = new tbl_orders();
+                newOrder.countPZ = Convert.ToInt32(form["countPZ"]);
+                newOrder.deliveredDate = Convert.ToDateTime(form["deliveredDate"]);
+                newOrder.userId = user.userId;
+                dbe.tbl_orders.Add(newOrder);
+                dbe.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.ToString());
+            }
             ViewBag.Message = "Thank You For Your Order!";
             return View();
         }
@@ -52,7 +77,7 @@ namespace Mvc_5_Empty_Template1.Controllers
             if (ModelState.IsValid)
             {
                 //_db.AddToOrderSet(orderToAdd);
-                _db.SaveChanges();
+                dbe.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -66,6 +91,18 @@ namespace Mvc_5_Empty_Template1.Controllers
 
             return View();
 
+        }
+
+        [HttpPost]
+        public ActionResult Search(FormCollection form)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult OrdersPage(FormCollection form)
+        {
+            return View();
         }
     }
 }

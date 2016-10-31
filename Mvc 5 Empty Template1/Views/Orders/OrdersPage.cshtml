@@ -1,0 +1,31 @@
+﻿
+@model  Mvc_5_Empty_Template1.Models.order
+@{
+    ViewBag.Title = "Orders Page";
+}
+
+@section featured
+{
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+            @using (Html.BeginForm("Index", "Orders"))
+            {
+                <table>
+                    <tr>
+                        <td><p>Please type your cell phone number:</p></td>
+                        <td>@Html.TextBoxFor(model => model.phone)</td>
+                    </tr>
+                </table>
+                <br />
+                <input type="submit" value="Search" />
+
+            }
+
+        </div>
+    </section>
+
+}
+

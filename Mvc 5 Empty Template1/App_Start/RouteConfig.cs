@@ -7,6 +7,11 @@ namespace Mvc_5_Empty_Template1.App_Start
     {
         public static void Configure(RouteCollection routes)
         {
+            //routes.MapRoute(
+            //    name: "OrdersSearch",
+            //    url: "Orders/Search",
+            //    defaults: new { controller = "Orders", action = "Search" }
+            //);
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

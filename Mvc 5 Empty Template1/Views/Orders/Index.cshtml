@@ -1,0 +1,8 @@
+﻿@model List<Mvc_5_Empty_Template1.Models.order>
+
+@{
+    ViewBag.Title = "Raw Orders";
+    var grid = new WebGrid(source: Model);
+}
+@grid.GetHtml()
+

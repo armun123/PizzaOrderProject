@@ -8,35 +8,33 @@
     <link rel="stylesheet" href="~/Content/Css/styles.css" />
 </head>
 <body>
-    <form method="post">
-        <div class="container-fluid">
-            <div id="container">
-                <div id="incontainer">
-                    <div id="header">
-                        <ul class="menu">
-                            <li class="btn_1"><a href="~/home/index">home page</a></li>
-                            <li class="line"></li>
-                            <li class="btn_2"><a href="~/home/ordersPage">Orders</a></li>
-                        </ul>
-                        <img src="~/Content/Images/logo.jpg" width="269" height="80" alt="" id="logo" />
-                    </div>
-                    <div id="content">
-                        @RenderSection("featured", required: false)
-                        <section class="content-wrapper main-content clear-fix">
-                            @RenderBody()
-                        </section>
-                        <div class="clear" id="end"></div>
-                    </div>
-                    <div id="footer">
-                        <p>
-                            <a href="~/home/index">HOME PAGE</a> | <a href="~/home/ordersPage">Orders</a> |
-                            Copyright &copy; Your Company Name |
-                        </p>
-                    </div>
+    <div class="container-fluid">
+        <div id="container">
+            <div id="incontainer">
+                <div id="header">
+                    <ul class="menu">
+                        <li class="btn_1"><a href="~/home/index">home page</a></li>
+                        <li class="line"></li>
+                        <li class="btn_2"><a href="~/orders/ordersPage">Orders</a></li>
+                    </ul>
+                    <img src="~/Content/Images/logo.jpg" width="269" height="80" alt="" id="logo" />
+                </div>
+                <div id="content">
+                    @RenderSection("featured", required: false)
+                    <section class="content-wrapper main-content clear-fix">
+                        @RenderBody()
+                    </section>
+                    <div class="clear" id="end"></div>
+                </div>
+                <div id="footer">
+                    <p>
+                        <a href="~/home/index">HOME PAGE</a> | <a href="~/orders/ordersPage">Orders</a> |
+                        Copyright &copy; Your Company Name |
+                    </p>
                 </div>
             </div>
         </div>
-    </form>
+    </div>
     @RenderSection("scripts", false)
 </body>
 </html>
