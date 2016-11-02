@@ -1,17 +1,14 @@
 ﻿@model  Mvc_5_Empty_Template1.Models.order
+@using JQueryUIHelpers;
 @{
 
     ViewBag.Title = "Order Page";
+
 }
 
 
 @section featured
 {
-<script type="text/javascript">
-    $(function () { // will trigger when the document is ready
-       $('.datepicker').datepicker(); //Initialise any date pickers
-    });
-</script>
     <section class="featured">
         <form method="post">
             <div class="content-wrapper">
@@ -40,15 +37,21 @@
                     </tr>
                     <tr>
                         <td><p>Delivery Date:</p></td>
-                        <td>@Html.TextBoxFor(model => model.deliveredDate, new { @class = "form-control datepicker", placeholder = "Enter Delivery date here..." })</td>
+                        <td>
+                            <div class="form-group">
+                                @Html.JQueryUI().DatepickerFor(model => model.deliveredDate)
+
+                            </div>
+                            @*@Html.TextBoxFor(model => model.deliveredDate)*@
+                        </td>
                     </tr>
                     <tr>
                         <td><p>Count Of Pizzas:</p></td>
                         <td>@Html.TextBoxFor(model => model.countPZ)</td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input id="Button1" type="submit" value="button" /></td>
-                        <td>            @Html.ActionLink("Add Order", "Add")</td>
+                        <td colspan="2"><input id="Button1" type="submit" value="Send Request" /></td>
+                        <td></td>
                     </tr>
                 </table>
             </div>

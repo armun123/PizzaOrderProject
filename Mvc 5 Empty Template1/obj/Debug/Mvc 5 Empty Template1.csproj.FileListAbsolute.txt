@@ -55,3 +55,6 @@ C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.dll
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.xml
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.SqlServer.dll
 C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\EntityFramework.SqlServer.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\JQueryUIHelpers.dll
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\bin\JQueryUIHelpers.xml
+C:\Hanna\pizza\PizzaOrderProject\Mvc 5 Empty Template1\obj\Debug\Mvc 5 Empty Template1.csprojResolveAssemblyReference.cache
