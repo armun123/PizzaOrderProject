@@ -16,7 +16,7 @@
                 <table>
                     <tr>
                         <td><p>Please type your cell phone number:</p></td>
-                        <td>@Html.TextBoxFor(model => model.phone)</td>
+                        <td>@Html.TextBoxFor(model => model.phone, new { @class = "form-control", required = "required" })</td>
                     </tr>
                 </table>
                 <br />

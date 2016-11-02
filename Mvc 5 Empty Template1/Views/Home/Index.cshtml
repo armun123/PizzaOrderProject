@@ -20,26 +20,26 @@
                         <td><p>First Name</p></td>
                         <td>
                             @*<textarea name="firstName"></textarea>*@
-                            @Html.TextBoxFor(model => model.firstName)
+                            @Html.TextBoxFor(model => model.firstName, new { @class = "form-control", required = "required"})
                         </td>
                     </tr>
                     <tr>
                         <td><p>Last Name</p></td>
-                        <td>@Html.TextBoxFor(model => model.lastName)</td>
+                        <td>@Html.TextBoxFor(model => model.lastName, new { @class = "form-control", required = "required" })</td>
                     </tr>
                     <tr>
                         <td><p>Send confirmation email to:</p></td>
-                        <td>@Html.TextBoxFor(model => model.userEmail)</td>
+                        <td>@Html.TextBoxFor(model => model.userEmail, new { @class = "form-control", required = "required" })</td>
                     </tr>
                     <tr>
                         <td><p>Phone Number:</p></td>
-                        <td>@Html.TextBoxFor(model => model.phone)</td>
+                        <td>@Html.TextBoxFor(model => model.phone, new { @class = "form-control", required = "required" })</td>
                     </tr>
                     <tr>
                         <td><p>Delivery Date:</p></td>
                         <td>
                             <div class="form-group">
-                                @Html.JQueryUI().DatepickerFor(model => model.deliveredDate)
+                                @Html.JQueryUI().DatepickerFor(model => model.deliveredDate, new { @class = "form-control", required = "required" })
 
                             </div>
                             @*@Html.TextBoxFor(model => model.deliveredDate)*@
@@ -47,7 +47,7 @@
                     </tr>
                     <tr>
                         <td><p>Count Of Pizzas:</p></td>
-                        <td>@Html.TextBoxFor(model => model.countPZ)</td>
+                        <td>@Html.TextBoxFor(model => model.countPZ, new { @class = "form-control", required = "required" })</td>
                     </tr>
                     <tr>
                         <td colspan="2"><input id="Button1" type="submit" value="Send Request" /></td>
